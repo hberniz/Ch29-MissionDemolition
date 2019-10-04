@@ -19,8 +19,13 @@ public class Slingshot : MonoBehaviour {
     public Rigidbody rb;
     public float velocityMult = 4f;
 
+    static public Slingshot S;
+
     void Awake()
     {
+        // Set the Slingshot singleton S
+        S = this;
+
         Transform launchPointTrans = transform.Find("LaunchPoint");
         launchPoint = launchPointTrans.gameObject;
         launchPoint.SetActive(false);

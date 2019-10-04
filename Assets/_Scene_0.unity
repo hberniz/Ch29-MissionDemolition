@@ -991,6 +991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minDist: 0.1
+  _____________________________: 0
 --- !u!120 &1098915181
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -1000,7 +1001,7 @@ LineRenderer:
   m_GameObject: {fileID: 1098915179}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 0
+  m_ReceiveShadows: 1
   m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
