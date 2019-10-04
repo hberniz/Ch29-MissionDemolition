@@ -225,6 +225,7 @@ MonoBehaviour:
   easing: 0.05
   minXY: {x: 0, y: 0}
   camZ: 0
+  _____________________________: 0
 --- !u!20 &282840813
 Camera:
   m_ObjectHideFlags: 0
@@ -294,8 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numClouds: 40
-  cloudPrefab: {fileID: 1642087982015080, guid: 0719eb94fbc8d064da664cc2b249d7cf,
-    type: 3}
+  cloudPrefab: {fileID: 0}
   cloudPosMin: {x: -50, y: -5, z: 10}
   cloudPosMax: {x: 150, y: 100, z: 10}
   cloudScaleMin: 1
@@ -1406,7 +1406,7 @@ Transform:
   m_GameObject: {fileID: 1815117305}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 100, y: -10, z: 0}
-  m_LocalScale: {x: 400, y: 1, z: 4}
+  m_LocalScale: {x: 400, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
