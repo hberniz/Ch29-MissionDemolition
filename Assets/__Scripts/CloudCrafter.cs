@@ -13,6 +13,8 @@ public class CloudCrafter : MonoBehaviour {
     public float cloudSpeedMult = 0.5f; // Adjusts speed of clouds
     private GameObject[] cloudInstances;
 
+    public bool _____________________________;
+
     void Awake()
     {
         // Make an array large enough to hold all the Cloud_ intances
